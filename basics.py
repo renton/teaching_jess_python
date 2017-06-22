@@ -99,9 +99,9 @@ print rgb[1]
 # this won't work. can't change tuples
 #rgb[1] = 'aa'
 
-# can split tuple up
+# can split tuple up into variables
 i, j, k = rgb
 
-print ka
+print k
 
-# lots more stanard tuple operations available!
+# lots more standard tuple operations available!
