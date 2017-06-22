@@ -59,7 +59,14 @@ e[3] = 'BUTT'       # changing value at 3rd positon of e
 e.append('ME TOO')  # adding a new element to end of array
 e.sort()            # sorting array
 
-# lots, lots more of standard array operations! splitting, removing, searching etc.
+# lots, lots more of standard list operations! splitting, removing, searching etc.
+
+# strings are also iterable!
+p = 'JESS WHITE'
+print p[6]
+
+for letter in p:
+    print letter
 
 # === dictionaries are associated arrays with unique key=>value pairs ===
 f = { 
@@ -82,6 +89,8 @@ if 'd' in f:
 else:
     print 'd is not in f'
 
+# lots more standard dict operations availabile!
+
 # === tuples are for ordered items that don't change ===
 rgb = (255, 240, 229)
 
@@ -93,4 +102,6 @@ print rgb[1]
 # can split tuple up
 i, j, k = rgb
 
-print k
+print ka
+
+# lots more stanard tuple operations available!
