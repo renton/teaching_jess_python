@@ -68,7 +68,7 @@ print p[6]
 for letter in p:
     print letter
 
-# === dictionaries are associated arrays with unique key=>value pairs ===
+# === dictionaries are associative arrays with unique key=>value pairs ===
 f = { 
         'a': 100,
         'b': 'blue',
