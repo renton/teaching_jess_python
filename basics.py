@@ -68,7 +68,7 @@ print p[6]
 for letter in p:
     print letter
 
-# === dictionaries are associated arrays with unique key=>value pairs ===
+# === dictionaries are associative arrays with unique key=>value pairs ===
 f = { 
         'a': 100,
         'b': 'blue',
@@ -99,9 +99,9 @@ print rgb[1]
 # this won't work. can't change tuples
 #rgb[1] = 'aa'
 
-# can split tuple up
+# can split tuple up into variables
 i, j, k = rgb
 
-print ka
+print k
 
-# lots more stanard tuple operations available!
+# lots more standard tuple operations available!
